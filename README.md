@@ -7,3 +7,7 @@ Built using vite.
 `npm run build`
 
 `npm run start`
+
+## Demo
+
+Try the [demo](https://vue3-article-filter-app.vercel.app/) hosted on vercel.
