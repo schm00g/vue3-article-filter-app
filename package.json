@@ -2,14 +2,21 @@
   "name": "vue3-article-filter-app",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "test:e2e": "vue-cli-service test:e2e",
+    "dev": "vite"
   },
   "dependencies": {
+    "@cypress/vue": "^3.1.0",
+    "@cypress/webpack-dev-server": "^1.8.2",
+    "cypress": "^9.5.1",
     "vue": "^3.0.4"
   },
   "devDependencies": {
+    "@vue/cli-plugin-e2e-cypress": "^4.5.15",
+    "@vue/cli-service": "^5.0.1",
     "@vue/compiler-sfc": "^3.0.4",
-    "vite": "^1.0.0-rc.13"
+    "vite": "^1.0.0-rc.13",
+    "vue-template-compiler": "^2.6.14"
   }
 }
