@@ -6,6 +6,7 @@
                 {{ title.Name }}
             </li>
         </ul>
+        <p class="empty" v-if="filteredTitles.length === 0">No items found 🔎</p>
     </div>
 </template>
 
@@ -45,6 +46,10 @@
 		font-size: 0.7em;
 		margin: 0;
 	}
+    .root .empty {
+        text-align: center;
+		font-size: 1em;
+    }
 	ul {
 		list-style:  none;
 		width: 50px 0;
